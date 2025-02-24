@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="roboto">
+    <header class="max-w-[1124px] w-full mx-auto">
+        <nav class="max-w-[1124px] w-full absolute z-2 bg-[white] flex justify-between pr-[87px] pl-[81px] fixed shadow-lg shadow-grey-500/50">
+            <img src="./img/logo.svg" alt="">
+            <div class="flex items-center gap-[16px]">
+                <button class="max-w-[78px] max-h-[40px] text-[13px]/[24px] rounded-xs font-medium cursor-pointer border-1 border-[#E0E0E0] flex items-center justify-center pt-[14px] pr-[20px] pb-[14px] pl-[20px]">
+                    Войти
+                </button>
+                <img class="cursor-pointer" src="./img/basket.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+       <div id="Start" class="max-w-[1055px] w-full mx-auto pt-18 pb-20">
+            <img class="absolute" src="./img-rest/photo.png" alt="">
+            <div class="relative pt-20 pl-20">
+                <div class="max-w-[389px] w-full bg-[#FFFFFF] flex flex-col gap-13 rounded-xs p-[38px]">
+                    <h2 class="text-[36px]/[42px]">
+                        Трактир «Пушкин»
+                    </h2>
+                    <div class="flex justify-between items-center">
+                            <p class="text-[#626262] text-[14px]/[16px]">
+                                ₽₽₽ • Европейская
+                            </p>
+                        <div class="bg-[#262626] text-white text-[13px]/[15px] rounded-2xl pt-[9px] pr-[13px] pb-[9px] pl-[10px]">
+                            <p>
+                                40 - 50 мин
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <div class="max-w-[1124px] w-full mx-auto text-[16px]/[18px] text-[#626262] flex gap-10 pt-[32px] pb-[29px] pl-20 border-b-[1px] border-[#75757533]">
+            <h5 class="cursor-pointer">
+                <span class="text-[#327430]">Закуски</span>
+            </h5>
+            <h5 class="cursor-pointer">
+                Салаты
+            </h5>
+            <h5 class="cursor-pointer">
+                Супы
+            </h5>
+            <h5 class="cursor-pointer">
+                Горячие блюда
+            </h5>
+            <h5 class="cursor-pointer">
+                Гарниры
+            </h5>
+            <h5 class="cursor-pointer">
+                Десерты   
+            </h5>
+    </div>
+    <section class="restaurants">
+        <div class="max-w-[962px] w-full mx-auto pb-20">
+            <h2 class="font-normal text-[22px]/[34px] mt-14 mb-8">
+                Закуски
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-2 gap-4">
+                <div class="restaurants__card">
+                    <div class="flex justify-between rounded-xs border-1 border-[#E0E0E0]">
+                        <div class="flex flex-col justify-between pt-4 pb-4 pl-4">
+                            <div class="flex flex-col gap-1">
+                                <h3 class="text-[#1D1D1D]">
+                                    Сельдь на бородинском хлебе
+                                </h3>
+                                <p class="text-sm text-[#626262]">
+                                    С яйцом и огурцом
+                                </p>
+                            </div>
+                            <p class="text-[15px]/[21px] font-medium text-[#1D1D1D]">
+                                240 ₽
+                            </p>
+                        </div>
+                        <img src="./img-rest/photo1.png" alt="">
+                    </div>
+                </div>
+                <div class="restaurants__card">
+                    <div class="flex justify-between rounded-xs border-1 border-[#E0E0E0]">
+                        <div class="flex flex-col justify-between pt-4 pb-4 pl-4">
+                            <div class="flex flex-col gap-1">
+                                <h3 class="text-[#1D1D1D]">
+                                    Соленья ассорти
+                                </h3>
+                            </div>
+                            <p class="text-[15px]/[21px] font-medium text-[#1D1D1D]">
+                                320 ₽
+                            </p>
+                        </div>
+                        <img src="./img-rest/photo2.png" alt="">
+                    </div>
+                </div>
+                <div class="restaurants__card">
+                    <div class="flex justify-between rounded-xs border-1 border-[#E0E0E0]">
+                        <div class="flex flex-col justify-between pt-4 pb-4 pl-4">
+                            <div class="flex flex-col gap-1">
+                                <h3 class="text-[#1D1D1D]">
+                                    Грибы маринованные
+                                </h3>
+                            </div>
+                            <p class="text-[15px]/[21px] font-medium text-[#1D1D1D]">
+                                300 ₽
+                            </p>
+                        </div>
+                        <img src="./img-rest/photo3.png" alt="">
+                    </div>
+                </div>
+                <div class="restaurants__card">
+                    <div class="flex justify-between rounded-xs border-1 border-[#E0E0E0]">
+                        <div class="flex flex-col justify-between pt-4 pb-4 pl-4">
+                            <div class="flex flex-col gap-1">
+                                <h3 class="text-[#1D1D1D]">
+                                    Сало домашнее с горчицей
+                                </h3>
+                            </div>
+                            <p class="text-[15px]/[21px] font-medium text-[#1D1D1D]">
+                                320 ₽
+                            </p>
+                        </div>
+                        <img src="./img-rest/photo4.png" alt="">
+                    </div>
+                </div>
+                <div class="restaurants__card">
+                    <div class="flex justify-between rounded-xs border-1 border-[#E0E0E0]">
+                        <div class="flex flex-col justify-between pt-4 pb-4 pl-4">
+                            <div class="flex flex-col gap-1">
+                                <h3 class="text-[#1D1D1D]">
+                                    Малосольная семга
+                                </h3>
+                            </div>
+                            <p class="text-[15px]/[21px] font-medium text-[#1D1D1D]">
+                                390 ₽
+                            </p>
+                        </div>
+                        <img src="./img-rest/photo5.png" alt="">
+                    </div>
+                </div>
+                <div class="restaurants__card">
+                    <div class="flex justify-between rounded-xs border-1 border-[#E0E0E0]">
+                        <div class="flex flex-col justify-between pt-4 pb-4 pl-4">
+                            <div class="flex flex-col gap-1">
+                                <h3 class="text-[#1D1D1D]">
+                                    Язык говяжий с хреном
+                                </h3>
+                            </div>
+                            <p class="text-[15px]/[21px] font-medium text-[#1D1D1D]">
+                                350 ₽
+                            </p>
+                        </div>
+                        <img src="./img-rest/photo6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" flex bg-[#262626]">
+        <div class="max-w-[962px] w-full mx-auto pt-[56px] pb-[40px]">
+            <img src="./img/white-logo.png" alt="">
+            <div class="mt-[40px] pt-[32px] pb-[56px] flex gap-24 border-t-[1px] border-b-[1px] border-[#FFFFFF]">
+                <div class="flex flex-col gap-8">
+                    <div class="w-[227px] bg-[#3B3B3B] flex justify-between items-center rounded-xs pt-[12px] pr-[8px] pb-[12px] pl-[16px]">
+                        <div class="flex gap-4">
+                            <img src="./img/world.png" alt="">
+                            <p class="text-[13px]/[15px] text-[#FFFFFF]">
+                                Русский
+                            </p>
+                        </div>
+                        <img class="cursor-pointer" src="./img/if_icon-ios7-arrow-back_211686.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <p class="cursor-pointer text-[16px]/[18px] text-[#FFFFFF]">
+                            <span class="text-[#49A144]">#</span>UberEats
+                        </p>
+                        <div class="flex gap-2">
+                            <img class="cursor-pointer" src="./img/facebook.png" alt="">
+                            <img class="cursor-pointer" src="./img/twitter.png" alt="">
+                            <img class="cursor-pointer" src="./img/instagram.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[391px] flex gap-32 ">
+                    <div class="text-[13px]/[15px] text-[#FFFFFF] flex flex-col gap-[23px]">
+                        <p class="cursor-pointer">
+                            Об UberEats
+                        </p>
+                        <p class="cursor-pointer">
+                            Станьте партнёром по доставке
+                        </p>
+                        <p class="cursor-pointer">
+                            Станьте парнёром-рестораном
+                        </p>
+                    </div>
+                    <div class="text-[13px]/[15px] text-[#FFFFFF] flex flex-col gap-[23px]">
+                        <p class="cursor-pointer">
+                            Все города
+                        </p>
+                        <p class="cursor-pointer">
+                            Цены
+                        </p>
+                        <p class="cursor-pointer">
+                            Помощь
+                        </p>
+                        <p class="cursor-pointer">
+                            FAQs
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center gap-10 pt-10 pb-10 border-b-[1px] border-[#FFFFFF]">
+                <img class="cursor-pointer" src="./img/App-store.png" alt="">
+                <img class="cursor-pointer" src="./img/google-play.png" alt="">
+            </div>
+            <div class="text-[11px]/[13px] text-[#FFFFFF] flex gap-43 pt-10">
+                <p class="cursor-pointer">
+                    © 2017 Uber Technologies Inc.
+                </p>
+                <div class="flex gap-[148px]">
+                    <p class="cursor-pointer">
+                        Обработка персональных данных
+                    </p>
+                    <p class="cursor-pointer">
+                        Пользовательское соглашение
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-[24px] right-[125px] fixed w-full mx-auto">
+            <div class="flex justify-end">
+                <a href="#Start" class="w-20 h-20 bg-[#59BD5A] rounded-xs cursor-pointer pt-[27px] pr-[32px] pb-[27px] pl-[32px]">
+                    <img src="./img/arrow.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
